@@ -1,0 +1,20 @@
+#include<iostream>
+#include <conio.h>
+
+using namespace std;
+int main(){
+	int num;
+	int product;
+	cout<<"Enter a number: ";
+	cin>>num;
+	cout<<"Multiplication table of "<<num<<": "<<endl;
+	for(int ctr=0+1;ctr<=10;ctr++)
+	{
+		product = ctr * num;
+		cout<<ctr<<" * "<<num<<" = "<<product<<endl;
+	}
+	cout<<endl;
+	
+	_getch();
+	return 0;
+}
