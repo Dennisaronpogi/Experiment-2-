@@ -1,0 +1,26 @@
+#include<iostream>
+#include<conio.h>
+
+using namespace std;
+int main(){
+        int num;
+	do{
+		int sum=0;
+		cout<<"Enter a number: ";
+		cin>>num;
+		if(num>0){
+			for(int ctr=0;ctr<=num;ctr++){
+				sum = sum + ctr;
+			}
+			cout<<"The sum of all whole numbers from 1 to "<<num<<" is "<<sum<<"."<<endl;
+		}
+		else if(num==0){
+			continue;
+		}
+		else{
+			cout<<"Zero or Positive Integers Only!"<<endl;
+		}
+	}while(num!=0);
+	cout<<"Thank you!"<<endl;
+	return 0;
+}
