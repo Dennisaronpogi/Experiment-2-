@@ -1,0 +1,29 @@
+#include <iostream>
+#include <conio.h>
+#include <string>
+
+using namespace std;
+
+int main()
+{
+	float gall, demand, balance;
+	demand = 35;
+
+	cout << " Input How Many Were Gallons Used: ";
+	cin >> gall;
+	cout << " Input Unpaid Balance: ";	
+	cin >> balance;
+	
+	if (balance > 0)
+
+	{
+		cout << " Total Water Bill: " << (demand + (gall * 1.1) + (balance + 20)) << endl;
+	}
+	
+	else
+		cout << " Total Water Bill: " << (demand + (gall * 1.1)) << endl;
+	
+
+	_getch();
+	return 0;
+}
