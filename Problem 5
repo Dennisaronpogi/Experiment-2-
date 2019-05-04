@@ -1,0 +1,19 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+	int ctr;
+	cout << "Counting........" <<endl;
+	for (ctr = 1 ; ctr <= 10 ; ctr ++)
+	cout << ctr << ", " ;
+	for (ctr = 12 ; ctr<=30 ; ctr+=2)
+	cout << ctr << ", " ;
+
+	_getch();
+	return 0;
+}
+
+
